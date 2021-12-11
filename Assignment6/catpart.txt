@@ -1,0 +1,52 @@
+# OpeningFile
+    NumberOfFiles:
+        None.       [error] [property noFiles]
+        Many.
+    Contains dashes:
+        True. [property hasDashes]
+        False. [single]
+    FileExists:
+        Present.        [if !noFiles] [if hasDashes] [property existsFile]
+        Not Present.    [error] [if !noFiles]
+# File
+    Size:
+        Empty.  [single] [if existsFile] [property emptyFile]
+        Not Empty. 
+    Occurance:
+        Zero. [if existsFile] [property noOccurance]
+        Many. [if !emptyFile]
+    
+# OPT
+    Args:
+        None.   [single] [property emptyArg]
+        Many.
+    -b:
+        True.   [if !emptyArg && existsFile]
+        False.
+    -f:
+        True.   [if !emptyArg && existsFile] [property firstOccur]
+        False.
+    -l:
+        True.   [if !emptyArg && existsFile] [property lastOccur]
+        False.
+    -i:
+        True.   [if !emptyArg && existsFile] [property case]
+        False.
+# To_Text
+    ToEmpty:
+        Zero:   [single] [if existsFile]
+        Any:    [if existsFile]
+        Exceeds Max File Size: [single] [error]
+# From_Text
+     FromEmpty:
+        Zero:   [single] [if existsFile]
+        Any:    [if existsFile]
+        Exceeds Max File Size: [single] [error]
+# OPT-Opitions
+    Case-Senestive:
+        True. [if case]
+        False.
+    Location:
+        First.  [if firstOccur && !noOccurance]
+        False.  [if lastOccur && !noOccurance]
+        Any.    [if !noOccurance]

@@ -1,0 +1,1100 @@
+
+Test Case 1  		<error>
+   NumberOfFiles :  None
+
+
+Test Case 2  		<single>
+   Contains dashes :  False
+
+
+Test Case 3  		<error>
+   FileExists :  Not Present
+
+
+Test Case 4  		<single>
+   Size :  Empty
+
+
+Test Case 5  		<single>
+   Args :  None
+
+
+Test Case 6  		(Key = 2.1.1.2.1.2.1.1.1.1.1.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  <n/a>
+
+
+Test Case 7  		(Key = 2.1.1.2.1.2.1.1.1.1.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 8  		(Key = 2.1.1.2.1.2.1.1.1.2.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 9  		(Key = 2.1.1.2.1.2.1.1.2.1.1.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  <n/a>
+
+
+Test Case 10 		(Key = 2.1.1.2.1.2.1.1.2.1.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 11 		(Key = 2.1.1.2.1.2.1.1.2.2.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  False
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 12 		(Key = 2.1.1.2.1.2.1.2.1.1.1.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  <n/a>
+
+
+Test Case 13 		(Key = 2.1.1.2.1.2.1.2.1.1.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 14 		(Key = 2.1.1.2.1.2.1.2.1.2.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 15 		(Key = 2.1.1.2.1.2.1.2.2.1.1.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  <n/a>
+
+
+Test Case 16 		(Key = 2.1.1.2.1.2.1.2.2.1.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 17 		(Key = 2.1.1.2.1.2.1.2.2.2.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  False
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 18 		(Key = 2.1.1.2.1.2.2.1.1.1.1.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  <n/a>
+
+
+Test Case 19 		(Key = 2.1.1.2.1.2.2.1.1.1.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 20 		(Key = 2.1.1.2.1.2.2.1.1.2.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 21 		(Key = 2.1.1.2.1.2.2.1.2.1.1.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  <n/a>
+
+
+Test Case 22 		(Key = 2.1.1.2.1.2.2.1.2.1.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 23 		(Key = 2.1.1.2.1.2.2.1.2.2.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  False
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 24 		(Key = 2.1.1.2.1.2.2.2.1.1.1.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  <n/a>
+
+
+Test Case 25 		(Key = 2.1.1.2.1.2.2.2.1.1.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 26 		(Key = 2.1.1.2.1.2.2.2.1.2.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 27 		(Key = 2.1.1.2.1.2.2.2.2.1.1.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  <n/a>
+
+
+Test Case 28 		(Key = 2.1.1.2.1.2.2.2.2.1.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 29 		(Key = 2.1.1.2.1.2.2.2.2.2.2.0.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Zero
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  False
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  <n/a>
+
+
+Test Case 30 		(Key = 2.1.1.2.2.2.1.1.1.1.1.1.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  First
+
+
+Test Case 31 		(Key = 2.1.1.2.2.2.1.1.1.1.1.2.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  False
+
+
+Test Case 32 		(Key = 2.1.1.2.2.2.1.1.1.1.1.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  Any
+
+
+Test Case 33 		(Key = 2.1.1.2.2.2.1.1.1.1.2.1.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  First
+
+
+Test Case 34 		(Key = 2.1.1.2.2.2.1.1.1.1.2.2.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  False
+
+
+Test Case 35 		(Key = 2.1.1.2.2.2.1.1.1.1.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 36 		(Key = 2.1.1.2.2.2.1.1.1.2.2.1.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  First
+
+
+Test Case 37 		(Key = 2.1.1.2.2.2.1.1.1.2.2.2.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  False
+
+
+Test Case 38 		(Key = 2.1.1.2.2.2.1.1.1.2.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 39 		(Key = 2.1.1.2.2.2.1.1.2.1.1.1.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  First
+
+
+Test Case 40 		(Key = 2.1.1.2.2.2.1.1.2.1.1.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  Any
+
+
+Test Case 41 		(Key = 2.1.1.2.2.2.1.1.2.1.2.1.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  First
+
+
+Test Case 42 		(Key = 2.1.1.2.2.2.1.1.2.1.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 43 		(Key = 2.1.1.2.2.2.1.1.2.2.2.1.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  False
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  First
+
+
+Test Case 44 		(Key = 2.1.1.2.2.2.1.1.2.2.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  True
+   -l                    :  False
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 45 		(Key = 2.1.1.2.2.2.1.2.1.1.1.2.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  False
+
+
+Test Case 46 		(Key = 2.1.1.2.2.2.1.2.1.1.1.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  Any
+
+
+Test Case 47 		(Key = 2.1.1.2.2.2.1.2.1.1.2.2.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  False
+
+
+Test Case 48 		(Key = 2.1.1.2.2.2.1.2.1.1.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 49 		(Key = 2.1.1.2.2.2.1.2.1.2.2.2.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  False
+
+
+Test Case 50 		(Key = 2.1.1.2.2.2.1.2.1.2.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 51 		(Key = 2.1.1.2.2.2.1.2.2.1.1.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  Any
+
+
+Test Case 52 		(Key = 2.1.1.2.2.2.1.2.2.1.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 53 		(Key = 2.1.1.2.2.2.1.2.2.2.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  True
+   -f                    :  False
+   -l                    :  False
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 54 		(Key = 2.1.1.2.2.2.2.1.1.1.1.1.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  First
+
+
+Test Case 55 		(Key = 2.1.1.2.2.2.2.1.1.1.1.2.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  False
+
+
+Test Case 56 		(Key = 2.1.1.2.2.2.2.1.1.1.1.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  Any
+
+
+Test Case 57 		(Key = 2.1.1.2.2.2.2.1.1.1.2.1.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  First
+
+
+Test Case 58 		(Key = 2.1.1.2.2.2.2.1.1.1.2.2.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  False
+
+
+Test Case 59 		(Key = 2.1.1.2.2.2.2.1.1.1.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 60 		(Key = 2.1.1.2.2.2.2.1.1.2.2.1.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  First
+
+
+Test Case 61 		(Key = 2.1.1.2.2.2.2.1.1.2.2.2.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  False
+
+
+Test Case 62 		(Key = 2.1.1.2.2.2.2.1.1.2.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 63 		(Key = 2.1.1.2.2.2.2.1.2.1.1.1.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  First
+
+
+Test Case 64 		(Key = 2.1.1.2.2.2.2.1.2.1.1.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  Any
+
+
+Test Case 65 		(Key = 2.1.1.2.2.2.2.1.2.1.2.1.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  First
+
+
+Test Case 66 		(Key = 2.1.1.2.2.2.2.1.2.1.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 67 		(Key = 2.1.1.2.2.2.2.1.2.2.2.1.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  False
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  First
+
+
+Test Case 68 		(Key = 2.1.1.2.2.2.2.1.2.2.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  True
+   -l                    :  False
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 69 		(Key = 2.1.1.2.2.2.2.2.1.1.1.2.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  False
+
+
+Test Case 70 		(Key = 2.1.1.2.2.2.2.2.1.1.1.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  Any
+
+
+Test Case 71 		(Key = 2.1.1.2.2.2.2.2.1.1.2.2.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  False
+
+
+Test Case 72 		(Key = 2.1.1.2.2.2.2.2.1.1.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  True
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 73 		(Key = 2.1.1.2.2.2.2.2.1.2.2.2.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  False
+
+
+Test Case 74 		(Key = 2.1.1.2.2.2.2.2.1.2.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  True
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 75 		(Key = 2.1.1.2.2.2.2.2.2.1.1.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  True
+   Location              :  Any
+
+
+Test Case 76 		(Key = 2.1.1.2.2.2.2.2.2.1.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  False
+   -i                    :  True
+   Case-Senestive        :  False
+   Location              :  Any
+
+
+Test Case 77 		(Key = 2.1.1.2.2.2.2.2.2.2.2.3.)
+   NumberOfFiles         :  Many
+   Contains dashes       :  True
+   FileExists            :  Present
+   Size                  :  Not Empty
+   Occurance             :  Many
+   Args                  :  Many
+   -b                    :  False
+   -f                    :  False
+   -l                    :  False
+   -i                    :  False
+   Case-Senestive        :  False
+   Location              :  Any
+
